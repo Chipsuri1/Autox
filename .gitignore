@@ -1,0 +1,8 @@
+# Project exclude paths
+/.gradle/
+/build/
+/build/classes/java/main/
+/components/CameraV1/build/
+/components/CameraV1/build/classes/java/main/
+/components/CameraV2/build/
+/components/CameraV2/build/classes/java/main/

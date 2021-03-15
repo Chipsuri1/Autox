@@ -1,0 +1,21 @@
+plugins {
+    id 'application'
+}
+
+group 'dhbw'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation("com.google.guava:guava:30.1-jre")
+}
+
+mainClassName='Application'
+
+run.dependsOn('CameraV1:jar')
+run.dependsOn('CameraV2:jar')

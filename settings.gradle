@@ -1,0 +1,6 @@
+rootProject.name = 'autox'
+include 'components/CameraV1'
+include 'components/CameraV2'
+
+project(':components/CameraV1').name = 'CameraV1'
+project(':components/CameraV2').name = 'CameraV2'
